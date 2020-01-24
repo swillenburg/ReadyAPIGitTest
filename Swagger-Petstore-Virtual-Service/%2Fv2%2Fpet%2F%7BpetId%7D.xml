@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/pet/{petId}" method="GET" resourcePath="/v2/pet/{petId}" id="44b164e6-a525-47bf-871b-c4c8c01eef1a" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="44b164e6-a525-47bf-871b-c4c8c01eef1afileName">%2Fv2%2Fpet%2F%7BpetId%7D</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="595dad4c-4916-401e-99f0-8854c13a063c" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 2" id="07afceec-a9a9-42c3-9016-29234797dd2e" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070"><con:settings/><con:responseContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:responseContent></con:response><con:response name="Response 3" id="6785a150-5824-48ab-87b1-3f7e94aba197" httpResponseStatus="400" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="a4e6fa18-18f9-4c24-bc79-ef35ac4a9fcc" httpResponseStatus="400" mediaType="application/xml"><con:settings/><con:responseContent/></con:response><con:response name="Response 5" id="c5c01a5f-fb10-4c72-bda2-a2ed6ea06bd4" httpResponseStatus="404" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 6" id="8bc05651-e284-43f3-8a29-2297f7f8a351" httpResponseStatus="404" mediaType="application/xml"><con:settings/><con:responseContent/></con:response></con:restMockAction>

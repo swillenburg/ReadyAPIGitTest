@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/user/{username}" method="GET" resourcePath="/v2/user/{username}" id="9f80ba0b-d804-458c-a406-e73e7f503d2d" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="9f80ba0b-d804-458c-a406-e73e7f503d2dfileName">%2Fv2%2Fuser%2F%7Busername%7D</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="4e517a56-5634-43a5-900c-bfafc71bcfb3" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070"><con:settings/><con:responseContent>{
+  "id" : 0,
+  "username" : "string",
+  "firstName" : "string",
+  "lastName" : "string",
+  "email" : "string",
+  "password" : "string",
+  "phone" : "string",
+  "userStatus" : 0
+}</con:responseContent></con:response><con:response name="Response 2" id="673696b5-d255-4810-8cff-b965b7dc3b15" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070"><con:settings/><con:responseContent><![CDATA[<User>
+   <id>0</id>
+   <username>string</username>
+   <firstName>string</firstName>
+   <lastName>string</lastName>
+   <email>string</email>
+   <password>string</password>
+   <phone>string</phone>
+   <userStatus>0</userStatus>
+</User>]]></con:responseContent></con:response><con:response name="Response 3" id="3821a206-9b12-4724-87c1-fbf3f1b4e736" httpResponseStatus="400" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="753d6302-649e-4b2a-bda7-81048709314c" httpResponseStatus="400" mediaType="application/xml"><con:settings/><con:responseContent/></con:response><con:response name="Response 5" id="ca5aecf1-24f5-4aa4-ac82-21b331ebae5f" httpResponseStatus="404" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 6" id="5e491969-a2e9-4b93-92ff-863746bdd76d" httpResponseStatus="404" mediaType="application/xml"><con:settings/><con:responseContent/></con:response></con:restMockAction>
