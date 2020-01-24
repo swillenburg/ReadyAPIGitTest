@@ -12,3 +12,17 @@ Swagger-Petstore\%2Fuser%2FcreateWithList.xml
 Swagger-Petstore\%2Fuser%2Flogin.xml
 Swagger-Petstore\%2Fuser%2Flogout.xml
 Swagger-Petstore\%2Fuser.xml
+Swagger-Petstore-TestSuite-1\%2Fpet%2F%7BpetId%7D%2FuploadImage-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fpet%2F%7BpetId%7D-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fpet%2FfindByStatus-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fpet%2FfindByTags-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fpet-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fstore%2Finventory-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fstore%2Forder%2F%7BorderId%7D-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fstore%2Forder-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fuser%2F%7Busername%7D-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fuser%2FcreateWithArray-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fuser%2FcreateWithList-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fuser%2Flogin-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fuser%2Flogout-TestCase.xml
+Swagger-Petstore-TestSuite-1\%2Fuser-TestCase.xml

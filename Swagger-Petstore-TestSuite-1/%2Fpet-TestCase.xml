@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="f898f4fd-6a8d-463c-8108-6838044e929d" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="/pet TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:description>The test case generated for the REST resource [/pet] located at [/pet]</con:description><con:settings><con:setting id="f898f4fd-6a8d-463c-8108-6838044e929dfileName">%2Fpet-TestCase</con:setting></con:settings><con:testStep type="restrequest" name="Request 1" id="e1fd98bc-f322-4790-bb62-8c7ec1ee37e5"><con:settings/><con:config service="Swagger Petstore" resourcePath="/v2/pet" methodName="addPet" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 1" id="448d34c7-2eed-47c1-b159-2bf7ef4150f0" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Request 2" id="2f62bf35-e567-4f67-8cb6-2960be3344bf"><con:settings/><con:config service="Swagger Petstore" resourcePath="/v2/pet" methodName="addPet" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 2" id="045b5bbf-02a5-4ab0-b40e-cb95a5770765" mediaType="application/xml"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request><![CDATA[<Pet>\r
+   <id>0</id>\r
+   <Category>\r
+      <id>0</id>\r
+      <name>string</name>\r
+   </Category>\r
+   <name>doggie</name>\r
+   <photoUrlss>\r
+      <photoUrl>string</photoUrl>\r
+   </photoUrlss>\r
+   <tagss>\r
+      <tag>\r
+         <id>0</id>\r
+         <name>string</name>\r
+      </tag>\r
+   </tagss>\r
+   <status>available</status>\r
+</Pet>]]></con:request><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Request 1 2" id="e1e26cbf-ded2-4e85-b310-c75ec13c910d"><con:settings/><con:config service="Swagger Petstore" resourcePath="/v2/pet" methodName="updatePet" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 1 2" id="41faf757-cb4c-4651-9b37-cb09de441664" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Request 2 2" id="0f5dbe9b-8a43-4431-a777-c6dde5fe8534"><con:settings/><con:config service="Swagger Petstore" resourcePath="/v2/pet" methodName="updatePet" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 2 2" id="56fbb911-f277-4d8e-af70-39675f08addb" mediaType="application/xml"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request><![CDATA[<Pet>\r
+   <id>0</id>\r
+   <Category>\r
+      <id>0</id>\r
+      <name>string</name>\r
+   </Category>\r
+   <name>doggie</name>\r
+   <photoUrlss>\r
+      <photoUrl>string</photoUrl>\r
+   </photoUrlss>\r
+   <tagss>\r
+      <tag>\r
+         <id>0</id>\r
+         <name>string</name>\r
+      </tag>\r
+   </tagss>\r
+   <status>available</status>\r
+</Pet>]]></con:request><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
