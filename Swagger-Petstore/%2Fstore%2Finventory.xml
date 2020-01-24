@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/store/inventory" path="/store/inventory" id="b0d898be-0b59-48b2-b1d0-296741dabfb0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="b0d898be-0b59-48b2-b1d0-296741dabfb0fileName">%2Fstore%2Finventory</con:setting></con:settings><con:parameters/><con:method name="getInventory" id="7a87b2aa-4060-4d1f-a42d-eeba0930da41" method="GET"><con:description>Returns a map of status codes to quantities
+Returns pet inventories by status</con:description><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent>{
+  "additionalProp1" : 0,
+  "additionalProp2" : 0,
+  "additionalProp3" : 0
+}</con:sampleContent></con:representation><con:request name="Request 1" id="86a510dc-19e5-4037-90cf-b513c86b965b" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:parameters/></con:request></con:method></con:resource>
