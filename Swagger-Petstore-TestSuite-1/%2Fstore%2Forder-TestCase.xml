@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="b4d396c6-0f2f-43ce-8241-f8c0f5f33e38" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="/store/order TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:description>The test case generated for the REST resource [/store/order] located at [/store/order]</con:description><con:settings><con:setting id="b4d396c6-0f2f-43ce-8241-f8c0f5f33e38fileName">%2Fstore%2Forder-TestCase</con:setting></con:settings><con:testStep type="restrequest" name="Request 1" id="b2ea2273-23b4-489c-bbab-0dee32b7ca6e"><con:settings/><con:config service="Swagger Petstore" resourcePath="/v2/store/order" methodName="placeOrder" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 1" id="465f5ed4-397b-4d9e-8eea-ab026b7d7d6a" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{\r
-  "id" : 0,\r
-  "petId" : 0,\r
-  "quantity" : 0,\r
-  "shipDate" : "2015-07-20T15:49:04-07:00",\r
-  "status" : "placed",\r
-  "complete" : true\r
-}</con:request><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
